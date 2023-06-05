@@ -20,7 +20,7 @@ p {
 
 main {
   width: 960px;
- margin: 50px;
+ margin: 50px auto;
  display: flex;
  justify-content: center;
 }
@@ -81,9 +81,13 @@ footer {
     display: block;
   }
 
+  body {
+    width: 100%;
+  }
+
   .step-box {
     width: 90%;
-    margin-bottom: 20px;
-    margin-right: 0;
+    margin: 20px;
   }
+
 }
