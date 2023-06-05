@@ -10,6 +10,14 @@ header {
   background-color: #FF9A4B;
 }
 
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 main {
   width: 960px;
  margin: 50px;
@@ -74,6 +82,7 @@ footer {
   }
 
   .step-box {
+    width: 90%;
     margin-bottom: 20px;
     margin-right: 0;
   }
